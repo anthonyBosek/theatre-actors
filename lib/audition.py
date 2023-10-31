@@ -1,3 +1,5 @@
-
 class Audition:
-    pass
+    all = []
+
+    def __init__(self):
+        type(self).all.append(self)
